@@ -7,5 +7,5 @@ var staticPath = path.join(__dirname, '/app');
 app.use(express.static(staticPath));
 const port=process.env.PORT || 3000;
 app.listen(port, function() {
- console.log("Listening on port %s...", server.address().port);
+ console.log("Listening on port %s...", port);
 });
