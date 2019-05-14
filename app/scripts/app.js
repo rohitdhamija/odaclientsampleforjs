@@ -116,8 +116,8 @@ function initBots(appId){
     message.text = '';
     message.actions = [{
       type: 'webview', // type of message action
-      text: 'Here is a video for you...', // button label
-      uri: 'https://odaclientsampleforjs.herokuapp.com/video-player.html', //some frame to be loaded in the Web SDK UI
+      text: 'Here is a calendar for you...', // button label
+      uri: 'https://odaclientsampleforjs.herokuapp.com/calendar.html', //some frame to be loaded in the Web SDK UI
       fallback: 'https://www.youtube.com/embed/4vofALn_zHo?start=99&autoplay=1', //in case the channel/browser doesn't WebViews
       openOnReceive: true
     }];
