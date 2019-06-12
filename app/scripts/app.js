@@ -111,7 +111,7 @@ function initBots(appId){
         }
     }).then(function (res){
         Bots.setDelegate({
-  beforeDisplay: (message) => {
+  /*beforeDisplay: (message) => {
     // if message contains video pattern, make sure to filter it here and replace it with the WebView message action
     message.text = '';
     message.actions = [{
@@ -123,7 +123,7 @@ function initBots(appId){
     }];
     return message;
   }
-});
+});*/
         Bots.updateUser(
             {
                 "givenName":"John", 
