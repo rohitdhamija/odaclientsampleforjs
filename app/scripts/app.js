@@ -110,8 +110,8 @@ function initBots(appId){
             // unsupportedActionType: 'Unsupported action type.'
         }
     }).then(function (res){
-        Bots.setDelegate({
-  /*beforeDisplay: (message) => {
+  /*      Bots.setDelegate({
+  beforeDisplay: (message) => {
     // if message contains video pattern, make sure to filter it here and replace it with the WebView message action
     message.text = '';
     message.actions = [{
