@@ -71,7 +71,8 @@ function initBots(appId){
         // buttonWidth: '58px',
         // buttonHeight: '58px',
         businessName: 'Oracle, MCE',
-        businessIconUrl: '/images/oracle-o-logo.png',
+        buttonIconUrl: 'https://odaclientsampleforjs.herokuapp.com/bots-client-sdk-js/mascot_565x565_New.png',
+        businessIconUrl: 'https://odaclientsampleforjs.herokuapp.com/bots-client-sdk-js/mascot_565x565_New.png',
         
         customColors: {
             brandColor: '286090',
