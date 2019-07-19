@@ -37,6 +37,7 @@ function loadChat(e){
     initBots(appId)
         .then(function () {
             console.log("init complete");
+            Bots.sendMessage('Hi');
             document.getElementById("loader").style.display = "none";
             Bots.open();
             document.getElementById("openChatButton").setAttribute("disabled", true)
