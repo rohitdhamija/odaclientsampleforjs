@@ -125,19 +125,13 @@ function initBots(appId){
     }];
     return message;
   }
-});*/
-        Bots.updateUser(
-            {
-                "givenName":"John", 
-                "surname":"Snow", 
-                "email": "john.snow@winterfell.com", 
-                "properties": { 
-                    "smoochCustomVariable1":"Lord", 
-                    "smoochCustomVariable2":"Commander"
-                }
-            }
-        ).catch(function (err) {
-            console.error(err);
-        });
+});*/  Bots.updateUser({'surname': "mitch.blum", 
+                                                     'properties': {
+                                                           'accessToken':"access_token",
+                                                           'principal': "mitch.blum" 
+                                                    }
+                       }).catch(function(err) {
+                              console.error(err); 
+                       }) ;       
     });
 }
