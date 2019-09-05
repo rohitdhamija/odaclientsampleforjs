@@ -125,6 +125,13 @@ function initBots(appId){
     }];
     return message;
   }
-});*/       
+});*/  Bots.updateUser({'surname': "mitch.blum", 
+                                                     'properties': {
+                                                           'accessToken':"",
+                                                           'principal': "" 
+                                                    }
+                       }).catch(function(err) {
+                              console.error(err); 
+                       }) ;       
     });
 }
