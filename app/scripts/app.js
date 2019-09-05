@@ -118,20 +118,20 @@ function initBots(appId){
     message.text = '';
     message.actions = [{
       type: 'webview', // type of message action
-      text: 'Here is a calendar for you...', // button labels
+      text: 'Here is a calendar for you...', // button label
       uri: 'https://odaclientsampleforjs.herokuapp.com/calendar.html', //some frame to be loaded in the Web SDK UI
       fallback: 'https://www.youtube.com/embed/4vofALn_zHo?start=99&autoplay=1', //in case the channel/browser doesn't WebViews
       openOnReceive: true
     }];
     return message;
   }
-});*/  Bots.updateUser({'surname': "mitch.blum", 
-                                                     'properties': {
-                                                           'accessToken':"",
-                                                           'principal': "" 
-                                                    }
-                       }).catch(function(err) {
-                              console.error(err); 
-                       }) ;       
+    });*/  Bots.updateUser({'surname': "mitch.blum", 
+                                                         'properties': {
+                                                               'accessToken':"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsIng1dCI6Ijd0cWNRWHBUY0hEZkwxZDFlTHdzZERNZ2hKcyIsImtpZCI6InRydXN0c2VydmljZSJ9.eyJleHAiOjE1Njc2OTExNTgsInN1YiI6Ik1JVENILkJMVU0iLCJpc3MiOiJ3d3cub3JhY2xlLmNvbSIsInBybiI6Ik1JVENILkJMVU0iLCJpYXQiOjE1Njc2NzY3NTh9.f4hrmVjeJXWGpmT06cXao6wN6XGefBVUk4KcsEvo_jc6K42lLOHIaU6X_CU_ERQ9st4b54flM-HXAND-CKTwuO8uih_2Agorgo8LbgwVs-P7IFr7pT3E6CSa-Td1tEAOB9G25Cqs1L6aJYr1T35lL_fQR_Sunbj0EDq1WU8wBjpqe_f5wXNCjA9-oZFPItd5mu9AvF2xEHyjrMZD3j4CEtpQwkxiwVpFrzko8Bk22LCojAyRjUifLmnVAD71QC98N5fiue5V9GYOc5Ykv12bENPeEYqtWL0RNuM8YjELbz4w8LBUrYx4Wa8A6G-DaW3Wi4_lCYHDReyl7dyiKp3NcA",
+                                                               'principal': "mitch.blum" 
+                                                        }
+                           }).catch(function(err) {
+                                  console.error(err); 
+                           }) ;       
     });
 }
