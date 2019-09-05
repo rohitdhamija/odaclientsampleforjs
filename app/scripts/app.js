@@ -118,20 +118,13 @@ function initBots(appId){
     message.text = '';
     message.actions = [{
       type: 'webview', // type of message action
-      text: 'Here is a calendar for you...', // button label
+      text: 'Here is a calendar for you...', // button labels
       uri: 'https://odaclientsampleforjs.herokuapp.com/calendar.html', //some frame to be loaded in the Web SDK UI
       fallback: 'https://www.youtube.com/embed/4vofALn_zHo?start=99&autoplay=1', //in case the channel/browser doesn't WebViews
       openOnReceive: true
     }];
     return message;
   }
-});*/  Bots.updateUser({'surname': "mitch.blum", 
-                                                     'properties': {
-                                                           'accessToken':"",
-                                                           'principal': "" 
-                                                    }
-                       }).catch(function(err) {
-                              console.error(err); 
-                       }) ;       
+});*/       
     });
 }
